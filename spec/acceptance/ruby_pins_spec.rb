@@ -3,7 +3,7 @@ RSpec.describe RubyPins do
     expect(RubyPins::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
-  end
+  it "initializes a pin given a valid pin number"
+  it "turns the pin on"
+  it "turns the pin off"
 end
